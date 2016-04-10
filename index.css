@@ -1,0 +1,593 @@
+body{
+   	background: #f1f1f1;
+	font-family: Roboto, arial, sans-serif;
+	font-size: 13px;
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+input[type="button"], button{
+background-color: #F1F1F1;
+border: solid 1px;
+border-color: #ddd;
+color: #4A4A4A;
+font-size: 75%;
+font-weight: bold;
+margin-right: 8px;
+}
+
+input[type="button"]:hover, button:hover{
+	box-shadow: inset 0px 0px 0 5000px rgba(0,0,0,0.05);
+}
+
+/* Link font styling */
+ #lower-nav2 a, #titlePanel a, .suggested a {
+	font-size: 13px;
+	font-weight: bold;
+	color: #303030;
+	text-decoration: none;
+}
+
+/* header */
+
+.upperNavBar {
+	position: fixed;
+	width: 100%;
+	left: -1px;
+	z-index:1000;
+	margin: -8px 1% 0 0;
+	border-bottom: solid 1px;
+	border-bottom-color: #ddd;
+	height: 54px;
+	background-color: #fff;
+}
+
+#space {
+	width: 100%;
+	height: 50px;
+}
+
+.upperNavBar > input[type="button"], #searchbar{
+	position: relative;
+	top: -10px;
+}
+
+#burger {
+	position: relative;
+	left: 20px;
+	top: -6px;
+	border: none;
+	background-color: white;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #CDCDCD;
+}
+
+.logo {
+	position: relative;
+	top: 8px;
+	height: 40px;
+	left: 20px;
+}
+
+#searchbar {
+	position: relative;
+	top: -6px;
+	margin-left: 8.5%;
+	width: 47.5%;
+	height: 28px;
+	border: 1px solid #ddd;
+}
+
+#search, #upload {
+	height: 32px;
+	border: 1px solid #ddd;
+	background: #f8f8f8;
+}
+
+#search {
+	position: relative;
+	left: -4px;
+	top: -3px;
+	border-left: 0;
+	width: 75px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	font-size: 20px;
+}
+
+#glass {
+	height: 16px;
+	opacity: .25;
+}
+
+#upload, #sign-in {
+	position: relative;
+	top: 12px;
+	float: right;
+	margin-right: 18px;
+	border-radius: 4px;
+	width: 80px;
+	font-size: 12px;
+}
+
+#sign-in {
+	height: 32px;
+	background-color: #0058CB;
+	color: #fff;
+	margin-right: 33px;
+}
+
+
+
+/* end of header */
+
+
+/*video and sidebar*/
+
+iframe, #sidebar {
+	margin-top: 1%;
+	
+}
+
+iframe {
+	margin-left: 6.5%;
+}
+
+#sidebar {
+	position: relative;
+	float: right;
+	top: -418px;
+	margin-right: 6.5%;
+	padding: 1.5% 1% 2.5% 1%;
+	height: 1200px;
+	width: 32%;
+	background-color: #fff;
+	border: 1px solid;
+	border-color: #ddd;
+	
+}
+
+#sidebar header > * {
+	display: inline;
+}
+
+
+
+.autoplay {
+	float: right;
+	width: 30%;
+	height: 18px;
+	padding-left: 5px;
+}
+
+.autoplay > * {
+	display: inline;
+	color: #585858;
+	padding: .5%;
+}
+
+.autoplay h4 {
+	position: relative;
+	top: -2px;
+	margin-right: 5px;
+}
+
+/* Suggested Videos */
+
+.suggested {
+	margin: 10px 5px 16px 0;
+	height: 73px;
+	overflow: hidden;
+}
+
+.suggested p {
+	font-size: 12px;
+	color: #585858;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.thumb {
+	float: left;
+	display: inline-block;
+	height: 97px;
+	width: 135px;
+	margin-top: -12px;
+	margin-bottom: -11px;
+	margin-right: 10px;
+}
+
+.grey {
+	height: 0;
+	border-top: solid 1px #ddd;
+	margin-bottom: 15px;
+}
+
+footer .grey {
+	margin-bottom: 3px;
+}
+
+.suggested a:hover {
+	color: #2BB1F3;
+}
+/* Panels below the video */
+
+.panel {
+	position: relative;
+	margin-left: 6.5%;
+	margin-top: .5%;
+	width: 50%;
+	background-color: #fff;
+	border: 1px solid;
+	border-color: #ddd;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+/* first panel */
+
+#titlePanel > * {
+	position: relative;
+	top: -20px;
+}
+
+#vox {
+	position: relative;
+	top: -20px;
+	height: 55px;
+	margin-right: 10px;
+}
+
+/* Subscribe button */
+
+#subscribe {
+	background-color: #E60000;
+	color: #fff;
+	width: 95px;
+	height: 100%;
+	border-radius: 4px 0 0 4px;
+	font-size: 12px;
+}
+
+
+#white-square {
+	position: relative;
+	height: 15px;
+	width: 20px;
+	background-color: #fff;
+	top: 2px;
+	left: -2px;
+	border-radius: 3px;
+}
+
+
+#red-triangle {
+position: relative;
+top: 4px;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 4px 0 4px 6px;
+border-color: transparent transparent transparent #E60000;
+margin-left: 40%;
+margin-right: 55%;
+margin-top: 20%;
+}
+
+#sub {
+	position: relative;
+	top: -55px;
+	left: 65px;
+	width: 170px;
+	height: 30px;
+}
+
+#text {
+	position: relative;
+	font-weight: normal;
+	top: -14px;
+	left: 10px;
+}
+
+#sub-count {
+	position: relative;
+	left: -14px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 8px;
+	height: 12px;
+	border: solid 1px #ddd;
+	border-left: none;
+	border-radius: 0 5px 5px 0;
+	color: #878686;
+}
+
+
+/* end subscribe button */
+
+
+#titlePanel {
+	height: 150px;
+	padding: 1% .8% 0 1.2%;
+}
+
+
+#vid-info {
+	padding-bottom: .5%;
+	border-bottom: 1px solid #ddd;
+	height: 44px;
+}
+
+#title {
+	font-family: arial;
+	font-size: 25px;
+}
+
+#views {
+	position: relative;
+	top: -75px;
+	float: right;
+	font-size: 20px;
+	color: #585858;
+}
+
+#blue-line {
+	position: relative;
+	float: right;
+	top: -42px;
+	left: 85px;
+	height:0px;
+	width: 175px;
+	outline: solid 2px #0058CB;
+}
+
+#titlePanel a {
+	position: relative;
+	top: -60px;
+}
+
+/* bottom part */
+.title-lower {
+	background:none;
+	border:none;
+	font-size: 12px;
+	margin-top: 11.5px;
+}
+
+#likes {
+	position: relative;
+	float: right;
+	top: -55px;
+	left: 105px;
+	color: #585858;
+}
+
+#likes img {
+	position: relative;
+	top: 5px;
+}
+
+.likes {
+	padding: 0 6px 0 6px; 
+}
+
+/* End First panel */
+
+/* Description Panel */
+
+#description {
+	height: 100px;
+	padding-bottom: 40px;
+}
+
+#mid-panel {
+	border-bottom: 1px solid #ddd;
+	height: 90px;
+}
+
+#mid-panel *{
+	color: #585858;
+}
+
+#desc {
+	position: relative;
+	top: -15px;
+}
+
+.show-more {
+	width: 100%;
+	border: none;
+	background-color: white;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+/* Comments -- The best part of youtube.*/
+
+
+#comments {
+	height: 900px;
+	padding-top: 6px;
+}
+
+#comments header {
+	width: 100%;
+}
+
+
+#comments header p{
+	font-weight: bold;
+	color: #585858;
+	margin-bottom: 20px;
+}
+
+#comments header p::after {
+	content: "37,515";
+	margin-left: 5px;
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+#comments header, #comments .grey, #comments button{
+	margin-bottom: 22px;
+}
+
+#comments article {
+	margin-bottom: 30px;
+}
+
+#top-comments {
+	padding-top: 6px;
+	height: 30px;
+}
+
+#comments .show-more {
+	width: 100%;
+	border: solid 1px #ddd;
+	height: 40px;
+	background: #f8f8f8;
+	
+}
+
+#comment-box {
+	margin-left: 7px;
+	opacity: .5;
+	padding-bottom: 20px;
+	height: 32px;
+	width: 580px;
+	padding-left: 10px;
+	
+}
+
+.user-icon {
+	height: 55px;
+	float: left;
+	margin-right: 10px;
+}
+
+.comment-text {
+	padding-left: 20px;
+	width: 85%;
+}
+
+.comment-text * {
+	margin-top: 6px;
+}
+
+.posted-at {
+	opacity: .5;
+}
+
+.reply, .comment-text img {
+	text-decoration: none;
+	color: black;
+	opacity: .5;
+	font-size: 14px;
+	margin-right: 5px;
+} 
+
+.reply {
+	position: relative;
+	top: -2px;
+}
+
+.comment-text footer:hover > * {
+	opacity: .75;
+}
+
+.reply:hover, .comment-text img:hover {
+	opacity: 1;
+}
+
+
+.user-name {
+	text-decoration: none;
+	color: #2BB1F3;
+	font-weight: bold;
+}
+
+/*lower nav bar*/
+
+#lower-navbar {
+	height: 140px;
+	margin-top: 80px;
+	background-color: #fff;
+	border-top: solid 1px;
+	border-color: #ddd;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: .75%;
+}
+
+.low-button {
+	position: relative;
+	margin: .5%;
+	top: -10px;
+	font-size: 12px;
+	height: 30px;
+	padding-top: 2.5px;
+}
+
+#lower-logo {
+	position: relative;
+	left: -18px;
+	margin-left: 30px;
+}
+
+#lower-nav1 {
+	position: relative;
+	width: 110%;
+	left: -60px;
+	border-bottom: solid 1px;
+	border-color: #ddd;
+}
+
+#lower-logo , #lower-nav1 button {
+	position: relative;
+	left: -30px;
+	font-size: 11px;
+	padding-top: 5px;
+}
+
+#lower-nav1 button img, #comments button img {
+	position: relative;
+	top: -5px;
+	height: 25px;
+	opacity: .75;
+	float: right;
+}
+
+#lower-nav1 button:nth-of-type(4),  button:nth-of-type(5){
+	position: relative;
+	top: -9px;
+	padding-bottom: 6px;
+	
+}
+
+#lower-nav2, #lower-nav3 {
+	padding: 1%;
+}
+
+
+#lower-nav2 a, #lower-nav3 a {
+	position: relative;
+	left: -70px;
+	margin: .5%;
+}
+
+#lower-nav3 a {
+	position: relative;
+	top: -15px;
+	color: #585858;
+	text-decoration: none;
+}
+
+#lower-nav2 a:hover, #lower-nav3 a:hover {
+	text-decoration: underline;
+	color: #2BB1F3;
+}
+
+
+
