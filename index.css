@@ -6,13 +6,12 @@ body{
     overflow-x: hidden;
 }
 
-
 input[type="button"], button{
 background-color: #F1F1F1;
 border: solid 1px;
 border-color: #ddd;
 color: #4A4A4A;
-font-size: 75%;
+font-size: 13px;
 font-weight: bold;
 margin-right: 8px;
 }
@@ -36,7 +35,7 @@ input[type="button"]:hover, button:hover{
 	width: 100%;
 	left: -1px;
 	z-index:1000;
-	margin: -8px 1% 0 0;
+	margin-top: -8px;
 	border-bottom: solid 1px;
 	border-bottom-color: #ddd;
 	height: 54px;
@@ -74,7 +73,7 @@ input[type="button"]:hover, button:hover{
 #searchbar {
 	position: relative;
 	top: -6px;
-	margin-left: 8.5%;
+	margin-left: 115px;
 	width: 47.5%;
 	height: 28px;
 	border: 1px solid #ddd;
@@ -133,10 +132,13 @@ iframe, #sidebar {
 
 iframe {
 	margin-left: 6.5%;
+	width: 52%; 
+	height: 400px;
 }
 
 #sidebar {
 	position: relative;
+	display: inline-block;
 	float: right;
 	top: -418px;
 	margin-right: 6.5%;
@@ -165,7 +167,6 @@ iframe {
 .autoplay > * {
 	display: inline;
 	color: #585858;
-	padding: .5%;
 }
 
 .autoplay h4 {
@@ -217,13 +218,13 @@ footer .grey {
 .panel {
 	position: relative;
 	margin-left: 6.5%;
-	margin-top: .5%;
+	margin-top: 6px;
 	width: 50%;
 	background-color: #fff;
 	border: 1px solid;
 	border-color: #ddd;
-	padding-left: 1%;
-	padding-right: 1%;
+	padding-left: 14px;
+	padding-right: 14px;
 }
 
 /* first panel */
@@ -511,14 +512,15 @@ margin-top: 20%;
 /*lower nav bar*/
 
 #lower-navbar {
-	height: 140px;
+	min-width: 900px;
+	height: 150px;
 	margin-top: 80px;
 	background-color: #fff;
 	border-top: solid 1px;
 	border-color: #ddd;
-	padding-left: 7%;
-	padding-right: 7%;
-	padding-top: .75%;
+	padding-left: 85px;
+	padding-right: 85px;
+	padding-top: .10px;
 }
 
 .low-button {
@@ -567,7 +569,7 @@ margin-top: 20%;
 }
 
 #lower-nav2, #lower-nav3 {
-	padding: 1%;
+	padding: 11.5px;
 }
 
 
